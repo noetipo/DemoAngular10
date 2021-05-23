@@ -1,0 +1,5 @@
+<div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+</div>
+
+<app-product-list [products]="products" (onDelete)="delete($event)" (onNew)="openNewForm()"
+                  (onEdit)="openEitForm($event)"></app-product-list>
